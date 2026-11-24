@@ -9,9 +9,9 @@ import os
 
 LINE = (
     "The lawmakers drafting rules for AI, crypto, and the entire internet "
-    "still ask their staff how to turn a Word document into a PDF, so the "
-    "first tech regulation should be a file conversion test, and anyone who "
-    "fails it gets a printer manual instead of a committee seat."
+    "still have to ask their staff how to turn a Word document into a PDF, "
+    "so the first tech regulation should be a file-conversion test, and "
+    "anyone who fails it gets a printer manual instead of a committee seat."
 )
 
 assert 1 <= len(LINE) <= 320 and LINE.strip(), "entry line fails the gate"
