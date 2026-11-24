@@ -8,10 +8,10 @@ from pathlib import Path
 import os
 
 LINE = (
-    "The same lawmakers who want to write the rules for AI, crypto, and the "
-    "entire internet still email their staff asking how to turn a Word "
-    "document into a PDF, which suggests the first law should be a basic "
-    "file conversion test for anyone drafting tech policy."
+    "The lawmakers drafting rules for AI, crypto, and the entire internet "
+    "still ask their staff how to turn a Word document into a PDF, so the "
+    "first tech regulation should be a file conversion test, and anyone who "
+    "fails it gets a printer manual instead of a committee seat."
 )
 
 assert 1 <= len(LINE) <= 320 and LINE.strip(), "entry line fails the gate"
